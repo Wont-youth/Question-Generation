@@ -4,7 +4,7 @@ This is an implementation of a Seq2Seq model on NLG task —— Question Generat
 
 Our work is based on [the work of jiangqn](https://github.com/jiangqn/natural-question-generation/tree/master) and we make other contribution to improve the code quality and augment the code function.
 
-Besides, this code has been submitted to the course CS6493 of CityU of HK in 2024. It is a part of group project and we also try large language models like BART and T5. You can find these jupyter notebooks in other repository.
+Besides, this code has been submitted to a certain course in 2024. It is a part of group project and we also try large language models like BART and T5. You can find these jupyter notebooks in other repository.
 
 To run the code, please install related python packages first. Then, download `en_core_web_sm` with `python -m spacy download en_core_web_sm`, download `suqad nqg dataset` including `train.json, dev.json and test.json` to `./data/squadnqg`and download `glove.840B.300d.txt` to `./data/vocab/` for word embedding. 
 
